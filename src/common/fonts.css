@@ -3,31 +3,31 @@
 /* Acima as fontes são usadas do google fontes e abaixo são usadas fontes baixadas */
 
 @font-face {
-    font-family: 'Discord';
+    font-family: 'Discord-Normal';
     src: url('../assets/fonts/Discord-Normal.woff2');
     font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Discord';
+    font-family: 'Discord-Medium';
     src: url('../assets/fonts/Discord-Medium.woff2');
     font-weight: 500;
 }
 
 @font-face {
-    font-family: 'Discord';
+    font-family: 'Discord-Semibold';
     src: url('../assets/fonts/Discord-Semibold.woff2');
     font-weight: 600;
 }
 
 @font-face {
-    font-family: 'Discord';
+    font-family: 'Discord-Bold';
     src: url('../assets/fonts/Discord-Bold.woff2');
     font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Discord';
+    font-family: 'Discord-Extrabold';
     src: url('../assets/fonts/Discord-extrabold.woff2');
     font-weight: 800;
 }

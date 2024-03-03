@@ -1,17 +1,26 @@
+.Cabecalho {
+    display: flex;
+    margin-top: 30px;
+}
+
 .Cabecalho h1 {
     display: flex;
     font-size: 16px;
     padding: 10px;
     margin: 10px;
-    flex-direction: row;
     cursor: pointer;
 }
 
-.Cabecalho {
-    display: flex;
-    margin-top: 30px;
-    height: 55px;
-}
+/*
+@media (max-width: 376px) {
+    .Cabecalho h1 {
+        display: flex;
+        padding: 1px;
+        margin: 5px;
+        font-size: 16px;
+        flex-wrap: wrap;
+    }
+} */
 
 .Faixa-01 {
     display: flex;
@@ -19,16 +28,11 @@
     align-items: center;
     flex-direction: row;
     text-align: center;
-    height: 610px;
+    width: 100%;
 }
 
 .Faixa-01 .Escritos {
     margin: 100px;
-}
-
-.Faixa-01 h1 {
-    font: 30px #000000;
-    /* Colocar a fonte */
 }
 
 .Faixa-01 img {
@@ -55,36 +59,35 @@
 .Faixa-02 {
     display: flex;
     background-color: #ff0000;
-    align-items: flex-start;
-    justify-content: end;
-    height: 700px;
     flex-direction: column;
+    justify-content: end;
+    height: 750px;
+    width: 94.97em;
+    position: relative;
 }
 
 .Faixa-02 .Text {
-    background-color: #ff0000;
+    align-self: center;
     width: 0%;
-    padding-left: 50%;
+    padding-bottom: 50px;
 }
 
-.Faixa-02 .Bloco {
+.Faixa-02 .Bloco-Inteiro {
     background-color: #ff0000;
     display: flex;
     flex-direction: row;
-    padding-top: 70px;
 }
 
-.Faixa-02 .Bloco1 {
+.Faixa-02 .BlocoUnitario {
     display: flex;
     background-color: #00ffff;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    align-items: center;
-    height: 550px;
-    width: 500px;
     flex-direction: column;
-    padding: 1%;
+    align-items: center;
     margin: 3px;
+    height: 550px;
+    width: 100%;
 }
 
 .Faixa-02 .Calca {
@@ -107,13 +110,12 @@
 .Faixa-03 {
     display: flex;
     background-color: #ffd700;
-    align-items: flex-start;
+    flex-direction: column;
     justify-content: end;
     height: 700px;
-    flex-direction: column;
 }
 
-.Faixa-03 .Bloco {
+.Faixa-03 .Bloco-Inteiro {
     background-color: #ffd700;
     display: flex;
     flex-direction: row;
@@ -121,9 +123,8 @@
 }
 
 .Faixa-03 .Text {
-    background-color: #ffd700;
+    align-self: center;
     width: 0%;
-    padding-left: 50%;
 }
 
 .Faixa-03 h3 {
@@ -132,16 +133,15 @@
     margin: 10px;
 }
 
-.Faixa-03 .Bloco2 {
+.Faixa-03 .BlocoUnitario {
     background-color: #ffdead;
     display: flex;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     align-items: center;
     height: 550px;
-    width: 500px;
     flex-direction: column;
-    padding: 1%;
+    width: 100%;
     margin: 3px;
 }
 
@@ -159,13 +159,12 @@
 .Faixa-04 {
     display: flex;
     background-color: #008000;
-    align-items: flex-start;
+    flex-direction: column;
     justify-content: end;
     height: 700px;
-    flex-direction: column;
 }
 
-.Faixa-04 .Bloco {
+.Faixa-04 .Bloco-Inteiro {
     background-color: #008000;
     display: flex;
     flex-direction: row;
@@ -173,9 +172,8 @@
 }
 
 .Faixa-04 .Text {
-    background-color: #008000;
+    align-self: center;
     width: 0%;
-    padding-left: 50%;
 }
 
 .Faixa-04 h3 {
@@ -184,16 +182,15 @@
     margin: 10px;
 }
 
-.Faixa-04 .Bloco3 {
+.Faixa-04 .BlocoUnitario {
     display: flex;
     background-color: #084d6e;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     align-items: center;
     height: 550px;
-    width: 500px;
+    width: 100%;
     flex-direction: column;
-    padding: 1%;
     margin: 3px;
 }
 
@@ -210,16 +207,45 @@
 
 .Faixa-05 {
     display: flex;
-    background-color: #3b41ec;
+    background-color: #ffffff;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 300px;
 }
 
-.Faixa-05 button {
+.Texto-Final {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Faixa-05 h1 {
+    font-size: 59px;
+}
+
+.Faixa-05 div {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.Faixa-05 input {
+    border-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+#email {
+    width: 686px;
+}
+
+.Faixa-05 Button {
     background-color: #ffc038;
     padding: 15px;
     border-radius: 10px;
-    
     cursor: pointer;
+    font-size: 25px;
+    width: 250px;
 }
