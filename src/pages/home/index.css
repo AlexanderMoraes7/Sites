@@ -11,17 +11,6 @@
     cursor: pointer;
 }
 
-/*
-@media (max-width: 376px) {
-    .Cabecalho h1 {
-        display: flex;
-        padding: 1px;
-        margin: 5px;
-        font-size: 16px;
-        flex-wrap: wrap;
-    }
-} */
-
 .Faixa-01 {
     display: flex;
     font-size: 30px;
@@ -62,7 +51,7 @@
     flex-direction: column;
     justify-content: end;
     height: 750px;
-    width: 94.97em;
+    width: 100%;
     position: relative;
 }
 
@@ -90,7 +79,7 @@
     width: 100%;
 }
 
-.Faixa-02 .Calca {
+.Faixa-02 .CalcaImagem {
     background-color: #00ffff;
     display: flex;
     height: 550px;
@@ -113,6 +102,7 @@
     flex-direction: column;
     justify-content: end;
     height: 700px;
+    width: 100%;
 }
 
 .Faixa-03 .Bloco-Inteiro {
@@ -162,6 +152,7 @@
     flex-direction: column;
     justify-content: end;
     height: 700px;
+    width: 100%;
 }
 
 .Faixa-04 .Bloco-Inteiro {
@@ -211,6 +202,7 @@
     flex-direction: column;
     align-items: center;
     height: 300px;
+    width: 100%;
 }
 
 .Texto-Final {
@@ -243,9 +235,94 @@
 
 .Faixa-05 Button {
     background-color: #ffc038;
-    padding: 15px;
+    padding-top: 1px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 25px;
     width: 250px;
+}
+
+@media (max-width: 376px) {
+
+    .Cabecalho h1 {
+        width: 10%;
+        padding: 0%;
+        font-size: 12px;
+    }
+
+    .Faixa-01 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .Faixa-01 img {
+        width: 100%;
+    }
+
+    .Faixa-01 .Button1 {
+        background-color: #ffc038;
+        padding: 10px;
+        margin-top: 5px;
+        width: 45%;
+        border-radius: 10px;
+        cursor: pointer
+    }
+
+    .Faixa-01 .Button2 {
+        padding: 10px;
+        margin-top: 10px;
+        width: 45%;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .Faixa-02 {
+        display: flex;
+        width: 100%;
+    }
+
+    .Faixa-02 .Text {
+        align-self: center;
+        width: 0%;
+        padding-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .Faixa-02 .Bloco-Inteiro {
+        background-color: #ff0000;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .Faixa-02 .BlocoUnitario {
+        display: flex;
+        background-color: #00ffff;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        flex-direction: column;
+        align-items: center;
+        margin: 3px;
+        height: 550px;
+        width: 90%;
+    }
+
+    .Faixa-02 .CalcaImagem {
+        background-color: #00ffff;
+
+    }
+
+    .Faixa-02 img {
+        margin: 4px;
+        width: 45%;
+    }
+
+    .Faixa-02 h3 {
+        background-color: #00ffff;
+        padding: 10px;
+        margin: 10px;
+    }
 }
